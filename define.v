@@ -1,0 +1,41 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 13.04.2026 16:11:31
+// Design Name: 
+// Module Name: define
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+// defines
+`define ADD 6'b000000
+`define SUB 6'b000001
+`define AND 6'b000010
+`define XOR 6'b000011
+`define COM 6'b000100
+`define MUL 6'b000101
+`define ADDI 6'b000110
+
+//for fileIO
+`timescale 1ns / 10ps
+`define EOF 32'hFFFF_FFFF
+`define NULL 0
+`define MAX_LINE_LENGTH 1000
+`define DSIZE 32 // Bitwidth of each register 
+`define NREG 32 //Number of registers 
+`define ISIZE 32 //instruction size
+`define ASIZE 5//Address size
+
