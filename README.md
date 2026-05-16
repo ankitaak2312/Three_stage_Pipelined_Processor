@@ -37,25 +37,26 @@ Testbench for simulation
 # Project Structure
 Three_stage_Pipelined_Processor/
 │
-├── alu.v   # Arithmetic Logic Unit
+
+├── alu.v                         # Arithmetic Logic Unit
             
-├── control.v   # Control Unit
+├── control.v                     # Control Unit
 
-├── define.v  # Macro/constant definitions
+├── define.v                      # Macro/constant definitions
 
-├── ID_EXstage.v  # Decode and Execute stage
+├── ID_EXstage.v                  # Decode and Execute stage
 
-├── IF_IDstage.v # Fetch stage
+├── IF_IDstage.v                  # Fetch stage
 
-├── imem_test0.mem # Instruction memory contents
+├── imem_test0.mem                # Instruction memory contents
 
-├── memory.v    # Memory module
+├── memory.v                      # Memory module
 
-├── PC.v      # Program Counter
+├── PC.v                          # Program Counter
 
-├── pipelined_3stage.v  # Top-level processor module
+├── pipelined_3stage.v            # Top-level processor module
 
-├── regfile.v    # Register File
+├── regfile.v                     # Register File
 
 ├── test_bench_3_stage_pipeline.v # Testbench
 
