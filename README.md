@@ -9,14 +9,21 @@ The processor is divided into multiple stages to improve instruction throughput 
 # The design includes:
 
 Instruction Fetch
+
 Instruction Decode / Execute
+
 Memory Access / Write Back
 
 # The project also includes:
 
 ALU implementation
+
 Register file
+
 Control unit
+
 Program counter
+
 Instruction memory
+
 Testbench for simulation
